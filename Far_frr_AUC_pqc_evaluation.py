@@ -898,12 +898,6 @@ def main():
         # Plots genuine vs impostor score distributions
         plot_genuine_impostor = evaluator.plot_genuine_vs_impostor(results)
 
-        print(">>> Fixed PQC evaluation completed successfully!")
-        print(">>> Key improvements:")
-        print("   -> Cancelable template verification now working properly")
-        print("   -> Homomorphic encryption thresholds adapted")
-        print("   -> Template dimension validation added")
-        print("   -> Enhanced error handling throughout")
 
         if plot_path:
             print(f">>> Visualization saved: {plot_path}")
@@ -919,3 +913,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
